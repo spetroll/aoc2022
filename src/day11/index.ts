@@ -114,17 +114,15 @@ export function getMonkeyBusiness(inspections: number[]): number {
 
 const part1 = (rawInput: string) => {
   const input = parseInput(rawInput);
-  console.log(getMonkeyBusiness(computeInspections(parseMonkeys(input))));
-  console.log(
-    getMonkeyBusiness(computeInspections(parseMonkeys(input), 10000, false)),
-  );
-  return;
+  return getMonkeyBusiness(computeInspections(parseMonkeys(input)));
 };
 
 const part2 = (rawInput: string) => {
   const input = parseInput(rawInput);
 
-  return;
+  return getMonkeyBusiness(
+    computeInspections(parseMonkeys(input), 10000, false),
+  );
 };
 
 run({

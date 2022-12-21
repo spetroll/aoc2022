@@ -59,38 +59,18 @@ const hasNearerBeacon = (point: Coord) => {
     }
 
     if (beacon.x === point.x && beacon.y === point.y) {
-      // console.log(
-      //   "Might be the beacon",
-      //   `${point.x},${point.y}`,
-      //   `${beacon.x},${beacon.y}`,
-      // );
       return [true, 1];
     }
     const distanceToSensor = manhattanDistance(sensor, point);
     const nearestBeaconFromSensor = distance;
 
     if (distanceToSensor <= nearestBeaconFromSensor) {
-      // console.log(
-      //   "Nearest beacon",
-      //   `${point.x},${point.y}`,
-      //   `${sensor.x},${sensor.y}`,
-      //   distanceToSensor,
-      //   nearestBeaconFromSensor,
-      // );
       return [
         true,
         Math.max(nearestBeaconFromSensor - distanceToSensor - 1, 1),
       ];
     }
-    // console.log(
-    //   "Sensor not near enough",
-    //   `${point.x},${point.y}`,
-    //   `${sensor.x},${sensor.y}`,
-    //   distanceToSensor,
-    //   nearestBeaconFromSensor,
-    // );
   }
-  // console.log("Possible point", { point });
   return [false, -1];
 };
 
@@ -181,47 +161,47 @@ const part2 = (rawInput: string) => {
 };
 
 run({
-  //   part1: {
-  //     tests: [
-  //       {
-  //         input: `Sensor at x=2, y=18: closest beacon is at x=-2, y=15
-  // Sensor at x=9, y=16: closest beacon is at x=10, y=16
-  // Sensor at x=13, y=2: closest beacon is at x=15, y=3
-  // Sensor at x=12, y=14: closest beacon is at x=10, y=16
-  // Sensor at x=10, y=20: closest beacon is at x=10, y=16
-  // Sensor at x=14, y=17: closest beacon is at x=10, y=16
-  // Sensor at x=8, y=7: closest beacon is at x=2, y=10
-  // Sensor at x=2, y=0: closest beacon is at x=2, y=10
-  // Sensor at x=0, y=11: closest beacon is at x=2, y=10
-  // Sensor at x=20, y=14: closest beacon is at x=25, y=17
-  // Sensor at x=17, y=20: closest beacon is at x=21, y=22
-  // Sensor at x=16, y=7: closest beacon is at x=15, y=3
-  // Sensor at x=14, y=3: closest beacon is at x=15, y=3
-  // Sensor at x=20, y=1: closest beacon is at x=15, y=3`,
-  //         expected: 26,
-  //       },
-  //     ],
-  //     solution: part1,
-  //   },
+  part1: {
+    tests: [
+      {
+        input: `Sensor at x=2, y=18: closest beacon is at x=-2, y=15
+  Sensor at x=9, y=16: closest beacon is at x=10, y=16
+  Sensor at x=13, y=2: closest beacon is at x=15, y=3
+  Sensor at x=12, y=14: closest beacon is at x=10, y=16
+  Sensor at x=10, y=20: closest beacon is at x=10, y=16
+  Sensor at x=14, y=17: closest beacon is at x=10, y=16
+  Sensor at x=8, y=7: closest beacon is at x=2, y=10
+  Sensor at x=2, y=0: closest beacon is at x=2, y=10
+  Sensor at x=0, y=11: closest beacon is at x=2, y=10
+  Sensor at x=20, y=14: closest beacon is at x=25, y=17
+  Sensor at x=17, y=20: closest beacon is at x=21, y=22
+  Sensor at x=16, y=7: closest beacon is at x=15, y=3
+  Sensor at x=14, y=3: closest beacon is at x=15, y=3
+  Sensor at x=20, y=1: closest beacon is at x=15, y=3`,
+        expected: 26,
+      },
+    ],
+    solution: part1,
+  },
   part2: {
     tests: [
-      // {
-      //   input: `Sensor at x=2, y=18: closest beacon is at x=-2, y=15
-      // Sensor at x=9, y=16: closest beacon is at x=10, y=16
-      // Sensor at x=13, y=2: closest beacon is at x=15, y=3
-      // Sensor at x=12, y=14: closest beacon is at x=10, y=16
-      // Sensor at x=10, y=20: closest beacon is at x=10, y=16
-      // Sensor at x=14, y=17: closest beacon is at x=10, y=16
-      // Sensor at x=8, y=7: closest beacon is at x=2, y=10
-      // Sensor at x=2, y=0: closest beacon is at x=2, y=10
-      // Sensor at x=0, y=11: closest beacon is at x=2, y=10
-      // Sensor at x=20, y=14: closest beacon is at x=25, y=17
-      // Sensor at x=17, y=20: closest beacon is at x=21, y=22
-      // Sensor at x=16, y=7: closest beacon is at x=15, y=3
-      // Sensor at x=14, y=3: closest beacon is at x=15, y=3
-      // Sensor at x=20, y=1: closest beacon is at x=15, y=3`,
-      //   expected: 56000011,
-      // },
+      {
+        input: `Sensor at x=2, y=18: closest beacon is at x=-2, y=15
+      Sensor at x=9, y=16: closest beacon is at x=10, y=16
+      Sensor at x=13, y=2: closest beacon is at x=15, y=3
+      Sensor at x=12, y=14: closest beacon is at x=10, y=16
+      Sensor at x=10, y=20: closest beacon is at x=10, y=16
+      Sensor at x=14, y=17: closest beacon is at x=10, y=16
+      Sensor at x=8, y=7: closest beacon is at x=2, y=10
+      Sensor at x=2, y=0: closest beacon is at x=2, y=10
+      Sensor at x=0, y=11: closest beacon is at x=2, y=10
+      Sensor at x=20, y=14: closest beacon is at x=25, y=17
+      Sensor at x=17, y=20: closest beacon is at x=21, y=22
+      Sensor at x=16, y=7: closest beacon is at x=15, y=3
+      Sensor at x=14, y=3: closest beacon is at x=15, y=3
+      Sensor at x=20, y=1: closest beacon is at x=15, y=3`,
+        expected: 56000011,
+      },
     ],
     solution: part2,
   },

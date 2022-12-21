@@ -7,13 +7,17 @@
       "part1": {
         "solved": true,
         "result": "69836",
-        "attempts": ["3"],
+        "attempts": [
+          "3"
+        ],
         "time": 1.2019
       },
       "part2": {
         "solved": true,
         "result": "11302288",
-        "attempts": ["169509"],
+        "attempts": [
+          "169509"
+        ],
         "time": 1.101
       }
     },
@@ -21,13 +25,17 @@
       "part1": {
         "solved": true,
         "result": "14531",
-        "attempts": ["5513"],
+        "attempts": [
+          "5513"
+        ],
         "time": 15.4368
       },
       "part2": {
         "solved": true,
         "result": "11258",
-        "attempts": ["12479"],
+        "attempts": [
+          "12479"
+        ],
         "time": 13.0782
       }
     },
@@ -49,7 +57,9 @@
       "part1": {
         "solved": true,
         "result": "305",
-        "attempts": ["305"],
+        "attempts": [
+          "305"
+        ],
         "time": 32.8372
       },
       "part2": {
@@ -91,7 +101,9 @@
       "part1": {
         "solved": true,
         "result": "1443806",
-        "attempts": ["1539243"],
+        "attempts": [
+          "1539243"
+        ],
         "time": 4.2644
       },
       "part2": {
@@ -146,15 +158,15 @@
     {
       "part1": {
         "solved": true,
-        "result": null,
+        "result": "110220",
         "attempts": [],
-        "time": null
+        "time": 2.4401
       },
       "part2": {
         "solved": true,
-        "result": null,
+        "result": "19457438264",
         "attempts": [],
-        "time": null
+        "time": 95.5101
       }
     },
     {
@@ -202,15 +214,15 @@
     {
       "part1": {
         "solved": true,
-        "result": null,
+        "result": "6853792",
         "attempts": [],
-        "time": null
+        "time": 7038.8411
       },
       "part2": {
         "solved": true,
         "result": "11482462818989",
         "attempts": [],
-        "time": 32626.0078
+        "time": 79694.498
       }
     },
     {

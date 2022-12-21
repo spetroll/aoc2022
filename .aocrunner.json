@@ -1,0 +1,357 @@
+{
+  "version": 1,
+  "year": 2022,
+  "language": "ts",
+  "days": [
+    {
+      "part1": {
+        "solved": true,
+        "result": "69836",
+        "attempts": ["3"],
+        "time": 1.2019
+      },
+      "part2": {
+        "solved": true,
+        "result": "11302288",
+        "attempts": ["169509"],
+        "time": 1.101
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "14531",
+        "attempts": ["5513"],
+        "time": 15.4368
+      },
+      "part2": {
+        "solved": true,
+        "result": "11258",
+        "attempts": ["12479"],
+        "time": 13.0782
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "7763",
+        "attempts": [],
+        "time": 14.4188
+      },
+      "part2": {
+        "solved": true,
+        "result": "2569",
+        "attempts": [],
+        "time": 34.1901
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "305",
+        "attempts": ["305"],
+        "time": 32.8372
+      },
+      "part2": {
+        "solved": true,
+        "result": "811",
+        "attempts": [],
+        "time": 40.9566
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "CNSZFDVLJ",
+        "attempts": [],
+        "time": 16.4296
+      },
+      "part2": {
+        "solved": true,
+        "result": "QNDWLMGNS",
+        "attempts": [],
+        "time": 8.9189
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "1262",
+        "attempts": [],
+        "time": 1.0574
+      },
+      "part2": {
+        "solved": true,
+        "result": "3444",
+        "attempts": [],
+        "time": 10.6422
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "1443806",
+        "attempts": ["1539243"],
+        "time": 4.2644
+      },
+      "part2": {
+        "solved": true,
+        "result": "942298",
+        "attempts": [],
+        "time": 4.2763
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "1688",
+        "attempts": [],
+        "time": 9.0594
+      },
+      "part2": {
+        "solved": true,
+        "result": "410400",
+        "attempts": [],
+        "time": 60.1186
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "6209",
+        "attempts": [],
+        "time": 38.5644
+      },
+      "part2": {
+        "solved": true,
+        "result": "2460",
+        "attempts": [],
+        "time": 58.0389
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "13760",
+        "attempts": [],
+        "time": 0.3383
+      },
+      "part2": {
+        "solved": true,
+        "result": "###..####.#..#.####..##..###..####.####.\n#..#.#....#.#.....#.#..#.#..#.#....#....\n#..#.###..##.....#..#....#..#.###..###..\n###..#....#.#...#...#....###..#....#....\n#.#..#....#.#..#....#..#.#....#....#....\n#..#.#....#..#.####..##..#....####.#....",
+        "attempts": [],
+        "time": 0.6043
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": null,
+        "attempts": [],
+        "time": null
+      },
+      "part2": {
+        "solved": true,
+        "result": null,
+        "attempts": [],
+        "time": null
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "484",
+        "attempts": [],
+        "time": 277.2179
+      },
+      "part2": {
+        "solved": true,
+        "result": "478",
+        "attempts": [],
+        "time": 1052.0431
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "6076",
+        "attempts": [],
+        "time": 1.9897
+      },
+      "part2": {
+        "solved": true,
+        "result": "24805",
+        "attempts": [],
+        "time": 67.7072
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "795",
+        "attempts": [],
+        "time": 401.0659
+      },
+      "part2": {
+        "solved": true,
+        "result": "30214",
+        "attempts": [],
+        "time": 31059.0397
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": null,
+        "attempts": [],
+        "time": null
+      },
+      "part2": {
+        "solved": true,
+        "result": "11482462818989",
+        "attempts": [],
+        "time": 32626.0078
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "1829",
+        "attempts": [],
+        "time": 322.0583
+      },
+      "part2": {
+        "solved": true,
+        "result": "1880",
+        "attempts": [],
+        "time": 702.2277
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "3211",
+        "attempts": [],
+        "time": 38.1566
+      },
+      "part2": {
+        "solved": true,
+        "result": "1589142857183",
+        "attempts": [],
+        "time": 96.905
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "3326",
+        "attempts": [],
+        "time": 20.8122
+      },
+      "part2": {
+        "solved": true,
+        "result": "1996",
+        "attempts": [],
+        "time": 933.0161
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "1365",
+        "attempts": [],
+        "time": 3811.9327
+      },
+      "part2": {
+        "solved": true,
+        "result": "4864",
+        "attempts": [],
+        "time": 5858.0472
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "5498",
+        "attempts": [],
+        "time": 23.3981
+      },
+      "part2": {
+        "solved": true,
+        "result": "3390007892081",
+        "attempts": [],
+        "time": 410.0613
+      }
+    },
+    {
+      "part1": {
+        "solved": true,
+        "result": "124765768589550",
+        "attempts": [],
+        "time": 13.8539
+      },
+      "part2": {
+        "solved": true,
+        "result": "3059361893920",
+        "attempts": [],
+        "time": 406.6942
+      }
+    },
+    {
+      "part1": {
+        "solved": false,
+        "result": null,
+        "attempts": [],
+        "time": null
+      },
+      "part2": {
+        "solved": false,
+        "result": null,
+        "attempts": [],
+        "time": null
+      }
+    },
+    {
+      "part1": {
+        "solved": false,
+        "result": null,
+        "attempts": [],
+        "time": null
+      },
+      "part2": {
+        "solved": false,
+        "result": null,
+        "attempts": [],
+        "time": null
+      }
+    },
+    {
+      "part1": {
+        "solved": false,
+        "result": null,
+        "attempts": [],
+        "time": null
+      },
+      "part2": {
+        "solved": false,
+        "result": null,
+        "attempts": [],
+        "time": null
+      }
+    },
+    {
+      "part1": {
+        "solved": false,
+        "result": null,
+        "attempts": [],
+        "time": null
+      },
+      "part2": {
+        "solved": false,
+        "result": null,
+        "attempts": [],
+        "time": null
+      }
+    }
+  ]
+}
